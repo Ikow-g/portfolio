@@ -1,0 +1,29 @@
+/* BottomNavbar.css */
+.navbar {
+  border-radius: 15px;
+  margin: 10px;
+}
+
+.brand {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #fff !important;
+  margin: 0 10px;
+}
+
+.nav-link:hover {
+  color: #ddd !important;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .nav {
+    margin: 10px 0;
+  }
+}
