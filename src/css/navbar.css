@@ -1,29 +1,55 @@
 /* BottomNavbar.css */
 .navbar {
-  border-radius: 15px;
-  margin: 10px;
+  border-radius: 50px;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  border: 1px solid #303030;
+  background: rgba(0, 0, 0, 0.258); /* Adjust the background color and opacity */
+  backdrop-filter: blur(7px); /* Adjust the blur intensity */
+  -webkit-backdrop-filter: blur(7px); /* For Safari support */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
 }
 
 .brand {
   font-size: 1.5em;
   font-weight: bold;
+  /* margin-right: auto; */
 }
 
-.nav-link {
-  color: #fff !important;
-  margin: 0 10px;
+.navlink-1{
+  margin-right: auto;
 }
 
-.nav-link:hover {
+.navlink-2{
+  margin-left: auto;
+}
+
+.separator {
+  height: 30px; /* Adjust height as needed */
+  width: 1px;
+  background-color: #fff; /* Adjust color as needed */
+  margin: 0 15px; /* Adjust margin as needed */
+}
+
+/* .nav-link {
+  color: #fff !important; 
+  margin: 0 10px; 
+ } */
+
+/* .nav-link:hover {
   color: #ddd !important;
-}
+} */
 
 @media (max-width: 600px) {
   .navbar {
-    flex-direction: column;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
-  .nav {
+  /* .nav {
     margin: 10px 0;
-  }
+  } */
 }
