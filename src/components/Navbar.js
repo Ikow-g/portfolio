@@ -13,8 +13,8 @@ const NavBar = () => {
         <Nav.Link href="#blog">Blog</Nav.Link>
       </Nav>
       <Nav className='navlink-2'>
-        <Nav.Link href="https://www.linkedin.com/in/muh-rizal-sakti-djatmieka/"><FaLinkedin /></Nav.Link>
-        <Nav.Link href="https://github.com/Ikow-g"><FaGithub /></Nav.Link>
+        <Nav.Link href="https://www.linkedin.com/in/muh-rizal-sakti-djatmieka/" target='_blank'><FaLinkedin /></Nav.Link>
+        <Nav.Link href="https://github.com/Ikow-g" target='_blank'><FaGithub /></Nav.Link>
       </Nav>
     </Navbar>
   );
