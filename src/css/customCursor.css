@@ -9,12 +9,22 @@
     transition: width 0.2s ease, height 0.2s ease, background-color 0.2s ease;
     z-index: 9999;
     mix-blend-mode: difference;
+    opacity: 1; /* Hide by default */
+    transition: opacity 0.2s ease;
+  }
+
+  .custom-cursor.visible {
+    opacity: 1; /* Show when visible */
   }
   
-  .custom-cursor.hovered {
+  .custom-cursor.hidden {
+    opacity: 0; /* Hide when not visible */
+  }
+  
+  /* .custom-cursor.hovered { */
     /* transform: scale(2); */
     /* width: 90px;
     height: 90px; */
     /* background-color: rgba(255, 255, 255, 0); */
-  }
+  /* } */
   
