@@ -4,14 +4,16 @@ import NavBar from "./components/Navbar";
 import Main from "./components/Main";
 import Project from "./components/Projects";
 import CustomCursor from "./components/CustomCursor";
+import Quotes from "./components/Quotes";
 
 function App() {
   
   return (
     <div className="App">
-      <Main />
       <CustomCursor />
       <NavBar />
+      <Main />
+      <Quotes></Quotes>
       <Project />
     </div>
   );
