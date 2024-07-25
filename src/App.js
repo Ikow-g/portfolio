@@ -7,13 +7,12 @@ import CustomCursor from "./components/CustomCursor";
 import Quotes from "./components/Quotes";
 
 function App() {
-  
   return (
     <div className="App">
       <CustomCursor />
       <NavBar />
       <Main />
-      <Quotes></Quotes>
+      <Quotes />
       <Project />
     </div>
   );
