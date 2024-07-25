@@ -13,14 +13,6 @@
   font-family: 'Sans', sans-serif;
 }
 
-.custom-cursor{
-  position:fixed;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background-color: #fff;
-}
-
 .App-header {
   margin: auto;
 }
@@ -31,7 +23,8 @@
   height: 100vh;
   justify-content: center;
   align-items: center;
-  max-width: 1024px;
+  /* max-width: 1024px; */
+  /* width: 900px; */
 }
 
 .main-content {
@@ -58,42 +51,163 @@
 
 .main-title{
   display: flex;
-  /* flex-wrap: nowrap; */
+  flex-wrap: nowrap;
 }
 
 @media (max-width: 900px) {
   .main-title{
     flex-wrap: wrap;
   }
-
+  .developer-text, .designer-text {
+    display: inline-block;
+    margin: 0 10px; /* Add some space between the texts */
+    white-space: normal; /* Allow wrapping */
+    overflow-wrap: break-word; /* Break long words */
+    word-break: break-all; /* Ensure words can break at any point */
+  }
   /* .main-title .designer-text{
     margin-top: 10px;
   } */
 }
 
-.quotes{
+.quotes-parent-container{
   display: flex;
-  margin: auto;
   align-items: center;
+  justify-content: center;
+  margin: auto;
   max-width: 1024px;
-  width: 100%;
-  margin-bottom: 60px;
 }
 
-.quotes h1{
-  font-style: italic;
+.quotes{
+  margin-bottom: 60px;
+  font-family: monospace;
+}
+
+.quotes p{
   font-size: 3em;
+  color: #bababa;
+}
+
+.quotes span{
+  color: #fff;
+}
+
+.project-parent-container{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  max-width: 1024px;
+  width: 100%;
 }
 
 .project-main-title h3{
   font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
+  margin-top: 100px;
 }
 
 .project-list{
+  font-family: monospace ;
   margin-bottom: 170px;
 }
 
 .project-list h4, .project-list h5{
   font-weight: bold;
+}
+
+.project-item {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #303030;
+  border-radius: 20px;
+}
+
+.project-item .col {
+  flex: 1;
+  min-width: 0;
+  padding: 10px;
+}
+
+.project-description{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-description h4 {
+  font-size: 1.5rem;
+}
+
+.project-description p {
+  font-size: 1rem;
+  color: #d4d4d4;
+}
+
+.pd-2 .btn-primary {
+  background-color: black;
+  border: 1px solid #303030;
+  padding: 15px;
+  padding-left: 25px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  width: 170px;
+  font-weight: 700;
+}
+
+.pd-2 .btn-primary:hover{
+  background-color: black;
+  border-color: white;
+}
+
+.pd-2 .btn-primary::after {
+  content: '↗';
+  margin-left: 10px;
+  color: rgb(71, 114, 255);
+}
+
+.project-details h5 {
+  margin-bottom: 10px;
+}
+
+.tools-list, .tags-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tool{
+  background-color: black;
+  padding: 5px 10px;
+  border-radius: 50px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  border: 2px solid #303030;
+  cursor: default;
+}
+
+.tool:hover {
+  border-color: white; /* Change border color on hover */
+  transition: 0.3s;
+}
+
+.tag{
+  margin-right: 10px;
+  color: #7DD3FC;
+}
+
+@media (max-width: 768px) {
+  .project-item {
+    flex-direction: column;
+  }
+
+  .project-item .col {
+    width: 100%;
+  }
+
+  .project-description{
+    margin-bottom: 40px;
+  }
 }
