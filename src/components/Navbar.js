@@ -6,7 +6,7 @@ import '../css/navbar.css';  // Custom styles
 const NavBar = () => {
   return (
     <Navbar  fixed="bottom" bg="" variant="dark" className="justify-content-between px-4">
-      <Navbar.Brand href="#home" className="brand">ikow.</Navbar.Brand>
+      <Navbar.Brand href="https://ikow.netlify.app" className="brand">ikow.</Navbar.Brand>
       <div className='separator'></div>
       <Nav className='navlink-1'>
         <Nav.Link href="https://drive.google.com/file/d/11bCozVIlz7pmtfwAgSo1SITfbJoxVTE8/view?usp=sharing" target='_blank'>Resume</Nav.Link>
