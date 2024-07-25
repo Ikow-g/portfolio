@@ -9,7 +9,7 @@ function Quotes() {
           By day, a<span> software engineer</span>, a
           <span> UI/UX designer </span>
           and a
-          <span> fullstack developer</span>. By night, a<span> musician</span>,
+          <span> full stack developer</span>. By night, a<span> musician</span>,
           <span> artist</span>, and
           <span> dreamer</span>.
         </p>
