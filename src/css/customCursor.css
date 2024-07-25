@@ -11,6 +11,7 @@
     mix-blend-mode: difference;
     opacity: 1; /* Hide by default */
     transition: opacity 0.2s ease;
+    background-color: #fff;
   }
 
   .custom-cursor.visible {
