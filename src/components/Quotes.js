@@ -1,15 +1,21 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 
-function Quotes () {
-    return (
-        <Container className="quotes">
-            <h1>
-                <span>"The value of an idea lies in the using of it." </span>
-                <span>- Thomas Edison</span>
-            </h1>
-        </Container>
-    );
+function Quotes() {
+  return (
+    <div className="quotes-parent-container">
+      <Container className="quotes">
+        <p>
+          By day, a<span> software engineer</span>, a
+          <span> UI/UX designer </span>
+          and a
+          <span> fullstack developer</span>. By night, a<span> musician</span>,
+          <span> artist</span>, and
+          <span> dreamer</span>.
+        </p>
+      </Container>
+    </div>
+  );
 }
 
 export default Quotes;
