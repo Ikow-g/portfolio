@@ -207,6 +207,7 @@ const Project = () => {
                   <div className="tool">JavaScript</div>
                   <div className="tool">Figma</div>
                   <div className="tool">Firebase</div>
+                  <div className="tool">Kotlin</div>
                 </div>
               </div>
               <div>
