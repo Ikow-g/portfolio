@@ -1,4 +1,5 @@
 import React from "react";
+import Accordion from "react-bootstrap/Accordion";
 import { Container } from "react-bootstrap";
 
 const Project = () => {
@@ -50,6 +51,12 @@ const Project = () => {
                 </div>
               </div>
             </div>
+            {/* <Accordion flush className="accordion-parent mt-4">
+              <Accordion.Item eventKey="0">
+                <Accordion.Header className="accordion-header">Preview</Accordion.Header>
+                <Accordion.Body className="accordion-body">lala</Accordion.Body>
+              </Accordion.Item>
+            </Accordion> */}
           </div>
           <div className="project-item row my-3 p-3">
             <div className="col-md-6 project-description">
@@ -97,9 +104,7 @@ const Project = () => {
             <div className="col-md-6 project-description">
               <div className="pd-1">
                 <h4>HewoDocs</h4>
-                <p>
-                  Online Pharmacy. Storage and Purchasing system.
-                </p>
+                <p>Online Pharmacy. Storage and Purchasing system.</p>
               </div>
               <div className="pd-2">
                 <a
@@ -140,9 +145,7 @@ const Project = () => {
             <div className="col-md-6 project-description">
               <div className="pd-1">
                 <h4>D-Barber</h4>
-                <p>
-                  Barber booking system website
-                </p>
+                <p>Barber booking system website</p>
               </div>
               <div className="pd-2">
                 <a
@@ -183,7 +186,8 @@ const Project = () => {
               <div className="pd-1">
                 <h4>Wadul</h4>
                 <p>
-                  Wadul (Wadah Aspirasi Daerah Unit Layanan) website with mobile app integration
+                  Wadul (Wadah Aspirasi Daerah Unit Layanan) website with mobile
+                  app integration
                 </p>
               </div>
               <div className="pd-2">
@@ -225,9 +229,7 @@ const Project = () => {
             <div className="col-md-6 project-description">
               <div className="pd-1">
                 <h4>React Experiment Area</h4>
-                <p>
-                  Web profile for experiment purpose.
-                </p>
+                <p>Web profile for experiment purpose.</p>
               </div>
               <div className="pd-2">
                 <a
