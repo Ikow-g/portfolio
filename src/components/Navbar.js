@@ -9,7 +9,7 @@ const NavBar = () => {
       <Navbar.Brand href="https://ikow.netlify.app" className="brand">ikow.</Navbar.Brand>
       <div className='separator'></div>
       <Nav className='navlink-1'>
-        <Nav.Link href="https://drive.google.com/file/d/11bCozVIlz7pmtfwAgSo1SITfbJoxVTE8/view?usp=sharing" target='_blank'>Resume</Nav.Link>
+        <Nav.Link href="https://drive.google.com/file/d/1xQ0AOvel0zuk73aF6e5mQSspBop3d4nt/view?usp=sharing" target='_blank'>Resume</Nav.Link>
         <Nav.Link href="#blog">Blog</Nav.Link>
       </Nav>
       <Nav className='navlink-2'>
